@@ -19,7 +19,7 @@
         }
 
         #navbar {
-            background-color: hsl(0, 100%, 42%);
+            background-color: hsl(0, 0%, 100%);
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -27,9 +27,16 @@
         }
 
         #navbar .logo {
-            margin: 0 12px;
+            margin: 0px;
             font-size: larger;
             font-weight: bold;
+            
+        }
+
+        #navbar .logo img{
+            width: 150px;
+            float: left;
+            
         }
 
         #navbar ul {
@@ -50,12 +57,11 @@
             text-decoration: none;
             border-radius: 5px;
             color: black;
-            text-transform: uppercase;
             font-weight: bold;
         }
 
         #navbar ul li a:hover {
-            background-color: #ff6262;
+            background-color: #e2e2e2;
         }
 
         #showcase{
@@ -93,7 +99,7 @@
         .btn{
             display: inline-block;
             color: black;
-            background-color: rgb(223, 0, 0);
+            background-color: rgb(255, 255, 255);
             padding: 0.8rem 2rem;
             border: none;
             border-radius: 5px;
@@ -102,13 +108,42 @@
         }
 
         .btn:hover{
-            background-color: #ff6262;
+            background-color: #bbbbbb;
+        }
+
+        footer {
+            background-color: hsl(0, 0%, 80%);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px;
+        }
+
+        footer h3 {
+            margin: 4px;
+            padding: 12px;
+            text-decoration: none;
+            border-radius: 5px;
+            color: black;
+            font-weight: bold;
+        }
+
+        footer img{
+            width: 150px;
+            float: left;
+        }
+
+        footer img .eufondy-removebg-preview{
+            width: 180px;
+            float: left;
         }
     </style>
 </head>
 <body>
     <nav id="navbar">
-        <div class="logo"></i>Český Florbal</div>
+        <div class="logo">
+        <img src="./img/logocf-removebg-preview.png" alt="logospolecnosti">
+        </div>
         <ul>
             <li><a href="https://login.ceskyflorbal.cz/osoba/"><i class="fa-solid fa-users"></i> FIS</a></li>
             <li><a href="https://www.ceskyflorbal.cz/competition/"><i class="fa-solid fa-star"></i> Soutěže</a></li>
@@ -126,5 +161,9 @@
 
     <!-- Photo by <a href="https://unsplash.com/@aaronburden?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Aaron Burden</a> on <a href="https://unsplash.com/photos/fountain-pen-on-spiral-book-xG8IQMqMITM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
   
+    <footer>
+        <img src="./img/ministerstvo-removebg-preview.png" alt="logospolecnosti">
+        <img src="./img/eufondy-removebg-preview.png" alt="logospolecnosti">
+    </footer>
 </body>
 </html>
