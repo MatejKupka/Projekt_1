@@ -2,142 +2,11 @@
 <html lang="cs">
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ukázka tvorby menu</title>
-    <style>
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        #navbar {
-            background-color: hsl(0, 0%, 100%);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 50px;
-        }
-
-        #navbar .logo {
-            margin: 0px;
-            font-size: larger;
-            font-weight: bold;
-            
-        }
-
-        #navbar .logo img{
-            width: 150px;
-            float: left;
-            
-        }
-
-        #navbar ul {
-            display: flex;
-            list-style: none;
-            align-items: center;
-        }
-
-        #navbar ul li {
-            margin: 0 12px;
-            padding: 0 4px;
-            text-decoration: none;
-        }
-
-        #navbar ul li a {
-            margin: 4px;
-            padding: 12px;
-            text-decoration: none;
-            border-radius: 5px;
-            color: black;
-            font-weight: bold;
-        }
-
-        #navbar ul li a:hover {
-            background-color: #e2e2e2;
-        }
-
-        #showcase{
-            background: #333 url("img/florbal.jpg") no-repeat center/cover;
-            height: 100vh;
-            color: whitesmoke;
-        }
-
-        #showcase .showcase-content {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            height: 100%;
-            padding: 0 2rem;
-            background-color: rgba(0,0,0,0.5);
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .l-heading {
-            font-size: 3.5rem;
-            margin-bottom: 0.75rem;
-            line-height: 1.1;
-        }
-
-        .lead {
-            font-size: 1.3rem;
-            margin-bottom: 2rem
-        }
-
-        .btn{
-            display: inline-block;
-            color: black;
-            background-color: rgb(255, 255, 255);
-            padding: 0.8rem 2rem;
-            border: none;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .btn:hover{
-            background-color: #bbbbbb;
-        }
-
-        footer {
-            background-color: hsl(0, 0%, 80%);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 50px;
-        }
-
-        footer h3 {
-            margin: 4px;
-            padding: 12px;
-            text-decoration: none;
-            border-radius: 5px;
-            color: black;
-            font-weight: bold;
-        }
-
-        footer img{
-            width: 150px;
-            float: left;
-        }
-
-        footer img .eufondy-removebg-preview{
-            width: 180px;
-            float: left;
-        }
-    </style>
+    <title>Hlavní stránka | Český florbal</title>
+    
 </head>
 <body>
     <nav id="navbar">
@@ -147,7 +16,7 @@
         <ul>
             <li><a href="https://login.ceskyflorbal.cz/osoba/"><i class="fa-solid fa-users"></i> FIS</a></li>
             <li><a href="https://www.ceskyflorbal.cz/competition/"><i class="fa-solid fa-star"></i> Soutěže</a></li>
-            <li><a href="https://www.ceskyflorbal.cz/secretariat"><i class="fa-solid fa-phone"></i> Kontakty</a></li>
+            <li><a href=            ><i class="fa-solid fa-phone"></i> Kontakty</a></li>
         </ul>
     </nav>
 <!-- Header: Showcase -->
@@ -158,6 +27,79 @@
             <a href="https://www.ceskyflorbal.cz/" class="btn">Chci vědět víc!</a>
         </div>
     </div>
+
+    <!--Ikony-->
+
+    <section id="what" class="bg-light py-1">
+        <div class="container">
+            <h2 class="m-heading text-center"><span class="text-primary">Rozcestník:</span></h2>
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-book fa-2x"></i>
+                    <div>
+                        <h3>Pro hráče</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-book fa-2x"></i>
+                    <div>
+                        <h3>Pro trenéry</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-book fa-2x"></i>
+                    <div>
+                        <h3>Pro rozhodčí</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+    </section>
+    
+    <section id="nastroje" class="py-1 bg-dark">
+        <div class="container">
+            <h2 class="m-heading text-center">Můzeš se stát:</h2>
+            <div class="items">
+                <div class="item">
+                    <img src="./img/hrac1.jpg" alt="vsc" class="image">
+                    <div class="overlay">
+                        <h3 class="text">Hráčem</h3>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./img/brankar.jpg" alt="python" class="image">
+                    <div class="overlay">
+                        <h3 class="text">Brankářem</h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt" class="bg-dark">
+        <div class="container">
+            <div class="kontakt-img"></div>
+            <div class="kontakt-text p-1 bg-dark">
+                <h2 class="m-heading"><span class="text-primary">Kontakt</span></h2>
+                <ul>
+                    <li>Český FLorbal</li>
+                    <li>Lomnického 1705/5</li>
+                    <li>140 00 Praha 4</li>
+                    <li><span class="text-primary"><i class="fa-solid fa-square-phone"></i></span> +420 553 759 170</li>
+                    <li><span class="text-primary"><i class="fa-solid fa-square-envelope"> </i></span>
+                        info@ceskyflorbal.cz</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Photo by <a href="https://unsplash.com/@aaronburden?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Aaron Burden</a> on <a href="https://unsplash.com/photos/fountain-pen-on-spiral-book-xG8IQMqMITM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
   
