@@ -269,5 +269,56 @@ footer img .eufondy-removebg-preview{
 }
 
 #kontakt .kontakt-img {
-    background: url("../img/kontakt.jpg") no-repeat center center/cover;
+    background: url("../img/kontakt.jpg§ů") no-repeat center center/cover;
+}
+
+
+@media(min-width: 1200px) {
+    body {
+        background: rgb(210, 210, 210);
+    }
+
+    #widescreen h1 {
+        display: block;
+    }
+}
+
+@media(min-width: 769px) and (max-width: 1200px) {
+    body {
+        background: rgb(210, 210, 210);
+    }
+
+    #normal h1 {
+        display: block;
+    }
+}
+
+@media(min-width: 501px) and (max-width: 768px) {
+    body {
+        background: rgb(220, 220, 220);
+    }
+
+    #tablet h1 {
+        display: block;
+    }
+}
+
+@media(max-width: 500px) {
+    body {
+        background: rgb(210, 210, 210);
+    }
+
+    #smartphone h1 {
+        display: block;
+    }
+}
+
+@media(max-height: 500px) {
+    body {
+        background: rgb(210, 210, 210);
+    }
+
+    #widescreen h1 {
+        display: block;
+    }
 }
