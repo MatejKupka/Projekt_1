@@ -275,7 +275,7 @@ footer img .eufondy-removebg-preview{
 
 @media(min-width: 1200px) {
     body {
-        background: rgb(210, 210, 210);
+        background: rgb(255, 255, 255);
     }
 
     #widescreen h1 {
@@ -285,7 +285,7 @@ footer img .eufondy-removebg-preview{
 
 @media(min-width: 769px) and (max-width: 1200px) {
     body {
-        background: rgb(210, 210, 210);
+        background: rgb(255, 255, 255);
     }
 
     #normal h1 {
@@ -295,7 +295,7 @@ footer img .eufondy-removebg-preview{
 
 @media(min-width: 501px) and (max-width: 768px) {
     body {
-        background: rgb(220, 220, 220);
+        background: rgb(205, 205, 205);
     }
 
     #tablet h1 {
@@ -305,7 +305,7 @@ footer img .eufondy-removebg-preview{
 
 @media(max-width: 500px) {
     body {
-        background: rgb(210, 210, 210);
+        background: rgb(205, 205, 205);
     }
 
     #smartphone h1 {
@@ -315,10 +315,60 @@ footer img .eufondy-removebg-preview{
 
 @media(max-height: 500px) {
     body {
-        background: rgb(210, 210, 210);
+        background: rgb(205, 205, 205);
     }
 
     #widescreen h1 {
         display: block;
     }
+}
+
+
+
+
+
+#smartphone .navbar {
+    background-color: hsl(0, 0%, 53%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+#smartphone .navbar .logo {
+    margin: 0px;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+#smartphone .navbar .logo img{
+    width: 150px;
+    float: left;
+    
+}
+
+#smartphone .navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#smartphone .navbar ul li {
+    margin: 0 12px;
+    padding: 0 4px;
+    text-decoration: none;
+}
+
+#smartphone .navbar ul li a {
+    margin: 4px;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+#smartphone .navbar ul li a:hover {
+    background-color: #e2e2e2;
 }
