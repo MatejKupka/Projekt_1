@@ -109,10 +109,12 @@ section{
     transition: 0.3s ease-in-out;
     cursor: pointer;
 }
+
 .btn:hover{
     transform: scale(1.05);
     box-shadow: 0 0 25px var(--main-color);
 }
+
 #showcase h1{
     font-size: 7rem;
     opacity: 1;
@@ -311,6 +313,7 @@ footer img .eufondy-removebg-preview{
 .contact ul:hover{
     transform: scale(1.1);
     transition: 0.3 ease-in-out;
+
 }
 @media (max-width: 1285px){
     html{
